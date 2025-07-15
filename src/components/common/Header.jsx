@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import CustomButton from '../common/CustomButton'
+import CustomButton from '../common/CustomButton';
 import { HEADER_LINK } from '../../utils/helper';
+
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -26,11 +27,16 @@ const Header = () => {
             <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
           </div>
           <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-6 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
-            {HEADER_LINK.map((items, index) => (
-              <li key={index}><a className='leading-[160%] text-[#787878]' href="">{items}</a></li>
+            {HEADER_LINK.map((item, index) => (
+              <li key={index}>
+                <a className={`leading-[160%] text-[#787878] ${index === 0 ? "gradient-text" : ""}`} href={item.path}>
+                  {item.link}
+                </a>
+              </li>
             ))}
             <li className='lg:hidden'>
-              <CustomButton btnClass="px-8 py-[15px] btn-gradient" btnText="Contact Us" /></li>
+              <CustomButton btnClass="px-8 py-[15px] btn-gradient" btnText="Contact Us" />
+            </li>
           </ul>
           <ul className='max-lg:hidden block'>
             <CustomButton btnClass="px-8 py-[15px] btn-gradient" btnText="Contact Us" />

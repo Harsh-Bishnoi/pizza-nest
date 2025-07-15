@@ -8,7 +8,26 @@ import masalaPaneer from "../assets/images/png/masala-paneer.png";
 
 
 export const HEADER_LINK = [
-    "Home", "Menu", "Customize Pizza", "Offers", "About Us"
+    {
+        link: "Home",
+        path: ""
+    },
+    {
+        link: "Menu",
+        path: ""
+    },
+    {
+        link: "Customize Pizza",
+        path: ""
+    },
+    {
+        link: "Offers",
+        path: ""
+    },
+    {
+        link: "About Us",
+        path: ""
+    }
 ]
 
 export const ABOUT_US_CARD_DATA = [
