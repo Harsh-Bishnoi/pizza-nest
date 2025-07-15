@@ -13,7 +13,13 @@ const Footer = () => {
               <Description descriptionClass="text-[#575757] pt-3" descriptionText="At Pizza Nest, we believe every slice should bring joy. Whether you're ordering for one or feeding a crowd, our pizzas are baked with care, topped with love, and delivered hot to your doorstep. You just taste the difference." />
               <div className="flex items-center gap-5 mt-4 sm:mt-6">
                 {SOCIAL_ICON.map((item, index) => (
-                  <a key={index} className='size-[52px] bg-red-500 rounded-full flex justify-center items-center' href={item.socialLink}>{<item.icon />}</a>
+                  <a
+                    key={index}
+                    className="size-[52px] hover:-translate-y-1 transition-all duration-200 ease-linear bg-gradient-to-r from-[#EC6112] to-[#FF902E] rounded-full flex justify-center items-center"
+                    href={item.socialLink} target='_blank'
+                  >
+                    {<item.icon />}
+                  </a>
                 ))}
               </div>
             </div>
@@ -21,13 +27,13 @@ const Footer = () => {
               <ul>
                 <li className='text-[#010101] leading-[160%] mb-1'>Quick Links</li>
                 {QUICK_LINKS.map((link, i) => (
-                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] ' href="">{link}</a></li>
+                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] hover:text-[#FB8628] transition-all duration-200 ease-linear' href="">{link}</a></li>
                 ))}
               </ul>
               <ul>
                 <li className='text-[#010101] leading-[160%] mb-1'>Support</li>
                 {SUPPORT_LINKS.map((link, i) => (
-                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] ' href="">{link}</a></li>
+                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] hover:text-[#FB8628] transition-all duration-200 ease-linear' href="">{link}</a></li>
                 ))}
               </ul>
             </div>
