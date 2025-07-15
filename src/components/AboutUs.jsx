@@ -1,8 +1,42 @@
 import React from 'react'
-
+import Heading from './common/Heading';
+import Description from './common/Description';
+import manImg from '../assets/images/png/about-us-man-img.png'
+import { ABOUT_US_CARD_DATA } from '../utils/helper';
+import pizzaImg from '../assets/images/png/about-us-pizza-img.png';
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <>
+      <div className="px-4 bg-[url(src/assets/images/png/about-us-bg-img.png)] pt-25 pb-[49px] relative">
+        <img className='absolute left-0 bottom-0 max-xl:w-full max-xl:max-w-[150px] animate-bounce' src={pizzaImg} alt="pizza-img" />
+        <div className="max-w-[1114px] mx-auto">
+          <div className="flex flex-col lg:flex-row items-center justify-between lg:min-h-[637px]">
+            <div className="lg:max-w-[558px]">
+              <div className="flex items-center gap-1.5">
+                <h5 className='font-nunito font-bold text-lg leading-[120%]'>About Us</h5>
+                <div className="border w-[60px] h-[1px]"></div>
+              </div>
+              <Heading headingClass="font-nunito pt-2" headingText="Welcome to the" spanText="Nest" />
+              <ul className='list-disc lg:max-w-[558px] ml-6 pt-4'>
+                <li><Description descriptionClass="font-nunito text-[#4D4D4D]" descriptionText="At PizzaNest, we believe that pizza is more than just food — it’s an emotion, a celebration, and comfort all rolled into one delicious slice. Founded with a passion for real ingredients and big flavors, we set out to bring handcrafted, oven-fresh pizzas to every corner of India." /></li>
+                <li className='pt-3'><Description descriptionClass="font-nunito text-[#4D4D4D]" descriptionText="Whether you're craving spicy paneer, a creamy cheese burst, or a fully loaded custom pizza made your way, we've got you covered. Each pizza is baked with love, topped with the freshest veggies, premium cheese, and authentic sauces — all delivered hot and fast, right to your doorstep." /></li>
+              </ul>
+              <div className="flex flex-wrap mt-6 gap-4 sm:gap-6 lg:max-h-[135px] max-lg:justify-center">
+                {ABOUT_US_CARD_DATA.map((item, index) => (
+                  <div className={`${index === 1 ? "sm:mt-3" : ""}`}>
+                    <div key={index} className="bg-[#FEFEFE] border w-full min-w-[160px] sm:max-w-[170px] sm:min-w-[170px] p-3 sm:p-4.5 shadow-[0px_1px_7px_0px_#F67A211F] rounded-xl border-dashed">
+                      <div className="bg-[#FCECE2] size-[52px] mx-auto rounded-full flex justify-center items-center">{<item.img />}</div>
+                      <p className='font-nunito leading-[160%] text-center whitespace-nowrap text-[#474747] pt-2'>{item.title}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <img className='lg:max-h-[597px] max-w-[383px] w-full mt-4' src={manImg} alt="man-img" />
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
