@@ -3,6 +3,7 @@ import Header from './components/common/Header'
 import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
 import Delicious from './components/Delicious'
+import BestSellers from './components/BestSellers'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Delicious />
+      <BestSellers />
     </>
   )
 }
