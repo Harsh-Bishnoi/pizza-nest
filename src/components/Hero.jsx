@@ -2,6 +2,7 @@ import React from 'react'
 import Description from './common/Description'
 import CustomButton from './common/CustomButton'
 import { HeroLine } from '../utils/Icons'
+import circleImg from '../assets/images/png/price-circle.png'
 
 const Hero = () => {
   return (
@@ -29,7 +30,8 @@ const Hero = () => {
             </div>
           </div>
           <div className="absolute right-[200px] xl:right-[394.16px] top-[200px] xl:top-[173.52px] hidden lg:block"><HeroLine /></div>
-          <div className="absolute top-[164px] xl:top-[137px] right-[100px] max-lg:hidden xl:right-[335px] border-[#FFFFFFCC] border-2 size-[88px] rounded-full flex items-center justify-center text-white font-semibold text-[25.3px] leading-[120%]">₹ 299</div>
+          <img className='absolute top-[164px] xl:top-[137px] right-[100px] max-lg:hidden xl:right-[283px]' src={circleImg} alt="circle-img" />
+          <div className="absolute top-[176px] xl:top-[151px] right-[113px] max-lg:hidden xl:right-[295px] border-[#FFFFFFCC] border-2 size-[88px] rounded-full flex items-center justify-center text-white font-semibold text-[25.3px] leading-[120%]">₹ 299</div>
         </div>
       </div>
     </>
