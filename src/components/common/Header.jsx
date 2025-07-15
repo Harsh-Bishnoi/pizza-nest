@@ -30,10 +30,10 @@ const Header = () => {
               <li key={index}><a className='font-nunito leading-[160%] text-[#787878]' href="">{items}</a></li>
             ))}
             <li className='lg:hidden'>
-              <CustomButton btnClass="font-nunito-sans font-semibold " btnText="Contact Us" /></li>
+              <CustomButton btnClass="font-nunito-sans px-8 py-[15px]" btnText="Contact Us" /></li>
           </ul>
           <ul className='max-lg:hidden block'>
-            <CustomButton btnClass="font-nunito-sans font-semibold " btnText="Contact Us" />
+            <CustomButton btnClass="font-nunito-sans px-8 py-[15px]" btnText="Contact Us" />
           </ul>
         </div>
       </nav>
