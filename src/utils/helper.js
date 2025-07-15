@@ -30,13 +30,13 @@ export const DELICIOUS_DATA = [
     {
         title: "SPICY PANEER",
         text: "Only",
-        price: "₹199",
+        price: "₹ 199",
         img: paneerPizza,
     },
     {
         title: "CHEESE BURST",
         text: "Only",
-        price: "₹299",
+        price: "₹ 299",
         img: cheesePizza,
     }
 ]

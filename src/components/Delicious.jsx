@@ -17,11 +17,13 @@ const Delicious = () => {
                                     <p className='sm:text-xl leading-[160%] text-[#E9E9E9]'>Limited Time</p>
                                     <CustomButton btnClass="py-2.5 btn-gradient px-4 leading-[140%] mt-2 sm:mt-4" btnText="Order Now" />
                                 </div>
-                                <img className='sm:absolute max-sm:ml-auto right-0 bottom-0 max-sm:max-w-[250px] pointer-events-none' src={item.img} alt="pizza-img" />
+                                <img className='sm:absolute max-sm:ml-auto right-0 bottom-0 max-sm:max-w-[250px] ' src={item.img} alt="pizza-img" />
                                 <div className="">
                                     <img className='absolute top-18 sm:top-[7px] right-8 sm:right-[49px] pointer-events-none' src={cloudImg} alt="cloud-img" />
-                                    {/* <p className='text-white leading-[160%]'>{item.text}</p>
-                                    <p className='uppercase text-2xl leading-[140%] text-white'>{item.price}</p> */}
+                                    <div className="absolute top-[95px] right-[65px] sm:top-[33px] sm:right-[80px] lg:top-[33px] lg:right-[81px]">
+                                        <p className='text-white text-center leading-[160%]'>{item.text}</p>
+                                        <p className='uppercase text-2xl text-center leading-[100%] text-white'>{item.price}</p>
+                                    </div>
                                 </div>
                             </div>
                         ))}
