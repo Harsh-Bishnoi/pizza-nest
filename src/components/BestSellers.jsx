@@ -3,11 +3,13 @@ import Heading from './common/Heading';
 import Description from './common/Description';
 import CustomButton from './common/CustomButton';
 import { BESTSELLER_DATA } from '../utils/helper';
+import tamatoImg from '../assets/images/png/tamato-img.png'
 
 const BestSellers = () => {
   return (
     <>
-      <div className="px-4 py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)]">
+      <div className="px-4 py-10 sm:py-17 md:py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)] relative">
+        <img className='absolute max-sm:hidden right-0 max-md:-top-1/16 max-[1172px]:-top-1/12 min-[1172px]:-top-1/6 max-md:max-h-[170px] max-[1172px]:max-h-[200px]' src={tamatoImg} alt="tamato-img" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
             <div className="border w-[60px]"></div>
@@ -16,7 +18,7 @@ const BestSellers = () => {
           </div>
           <Heading headingClass="text-center pt-2" headingText="Pizzas You Can’t Say No To" />
           <Description descriptionClass="text-[#373737] text-center pt-4" descriptionText="Tried, tested, and totally loved. These pizzas are always a crowd favorite." />
-          <div className="pt-[125px] flex-wrap justify-center flex gap-x-6 gap-y-20">
+          <div className="pt-25 sm:pt-[125px] flex-wrap justify-center flex gap-x-6 gap-y-20">
             {BESTSELLER_DATA.map((item, index) => (
               <div className="max-w-[267px] relative bg-[#FEFEFE] border border-[#0000000F] rounded-bl-xl rounded-tr-xl p-6" key={index}>
                 <img className='absolute transform -top-[21%] -translate-x-1/2 left-1/2' src={item.img} alt="pizza-img" />

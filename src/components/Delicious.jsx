@@ -6,7 +6,7 @@ import cloudImg from '../assets/images/png/cloud-img.png'
 const Delicious = () => {
     return (
         <>
-            <div className="px-4 my-25">
+            <div className="px-4 my-10 sm:my-17 md:my-25">
                 <div className="max-w-[1140px] mx-auto">
                     <div className="flex max-lg:flex-wrap gap-6 items-center">
                         {DELICIOUS_DATA.map((item, index) => (
