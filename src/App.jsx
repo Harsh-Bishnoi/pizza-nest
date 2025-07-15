@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import AboutUs from './components/AboutUs'
 import Delicious from './components/Delicious'
 import BestSellers from './components/BestSellers'
+import Footer from './components/common/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <AboutUs />
       <Delicious />
       <BestSellers />
+      <Footer />
     </>
   )
 }

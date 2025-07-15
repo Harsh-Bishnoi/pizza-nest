@@ -1,4 +1,4 @@
-import { ChefIcon, QualityIcon, SupportIcon } from "./Icons"
+import { ChefIcon, FacebookIcon, InstaIcon, LinkdinIcon, QualityIcon, SupportIcon } from "./Icons"
 import paneerPizza from "../assets/images/png/paneer-pizza.png";
 import cheesePizza from "../assets/images/png/cheese-pizza.png";
 import tandooriPizza from "../assets/images/png/tandoori-paneer.png";
@@ -66,4 +66,27 @@ export const BESTSELLER_DATA = [
         title: "Masala Paneer",
         description: "Masala-marinated paneer, sautéed onions, green & red capsicum, mozzarella cheese"
     },
+]
+
+export const SOCIAL_ICON = [
+    {
+        icon: FacebookIcon,
+        socialLink: "https://www.facebook.com/?_rdr"
+    },
+    {
+        icon: InstaIcon,
+        socialLink: "https://www.instagram.com/accounts/login/?hl=en"
+    },
+    {
+        icon: LinkdinIcon,
+        socialLink: "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
+    }
+]
+
+export const QUICK_LINKS = [
+    "Home", "About Us", "Menu", "Gallery", "Testimonial", "Contact"
+]
+
+export const SUPPORT_LINKS = [
+    "Terms & Conditions", "Privacy Policy"
 ]
