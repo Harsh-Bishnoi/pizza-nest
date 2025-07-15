@@ -13,6 +13,14 @@ body {
     display: inline-block;
 }
 
+.btn-gradient {
+    background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(85.95deg, #d44d0a 1.54%, #e8751a 98.46%);
+}
+
 @media (max-width:1023.98px) {
     .nav-link {
         flex-direction: column;

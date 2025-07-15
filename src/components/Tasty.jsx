@@ -17,7 +17,7 @@ const Tasty = () => {
                             <p className='gradient-text pb-0.5 font-semibold text-2xl md:text-[28px] leading-[140%] '>Buy 1 Pizza, Get 1 Free!</p>
                             <Heading headingClass="text-white !text-[30px] md:!text-[40px] lg:!text-[56px]" headingText="Medium & Large pizzas" />
                             <p className='gradient-text font-semibold text-2xl md:text-[28px] leading-[140%] pt-1 w-full'>Limited Offer</p>
-                            <CustomButton btnClass="px-[32.5px] py-[15px] mt-3" btnText="Order Now" />
+                            <CustomButton btnClass="px-[32.5px] btn-gradient py-[15px] mt-3" btnText="Order Now" />
                         </div>
                         <div className="relative flex items-center">
                             <img className='max-w-[400px] pointer-events-none lg:max-w-[553px] w-full' src={tastyPizza} alt="pizza-img" />

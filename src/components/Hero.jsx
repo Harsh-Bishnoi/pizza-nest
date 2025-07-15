@@ -13,8 +13,8 @@ const Hero = () => {
             <Description descriptionClass="text-[#EFEFEF] max-w-[530px] pt-4" descriptionText="At Pizza Nest, we bake more than pizza — we bake comfort. Customize 
             your perfect slice, or choose from our signature favorites"/>
             <div className="flex gap-4 sm:gap-6 mt-5.5 sm:mt-8 flex-wrap">
-              <CustomButton btnClass="px-[29px] sm:px-[33px] py-3.5" btnText="Order Now" />
-              <CustomButton btnClass="border border-[#FEFEFE] !bg-transparent px-4.5 sm:px-8 py-3.5" btnText="View Full Menu" />
+              <CustomButton btnClass="px-[29px] sm:px-[33px] py-3.5 btn-gradient" btnText="Order Now" />
+              <CustomButton btnClass="border border-[#FEFEFE] !bg-transparent px-4.5 sm:px-8 py-3.5 hover:!border-[#FD8B2B]/80 hover:!bg-[#FD8B2B]/80" btnText="View Full Menu" />
             </div>
             <div className="pt-6 flex gap-1 items-center flex-wrap">
               <div className="max-w-[145px] sm:max-w-[155px] w-full text-center">

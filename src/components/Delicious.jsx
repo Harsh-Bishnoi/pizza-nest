@@ -15,7 +15,7 @@ const Delicious = () => {
                                     <h5 className='text-xl sm:text-[28px] leading-[160%] gradient-text'>Delicious</h5>
                                     <h2 className='text-white text-[28px] sm:text-4xl font-semibold leading-[160%]'>{item.title}</h2>
                                     <p className='sm:text-xl leading-[160%] text-[#E9E9E9]'>Limited Time</p>
-                                    <CustomButton btnClass="py-2.5 px-4 leading-[140%] mt-2 sm:mt-4" btnText="Order Now" />
+                                    <CustomButton btnClass="py-2.5 btn-gradient px-4 leading-[140%] mt-2 sm:mt-4" btnText="Order Now" />
                                 </div>
                                 <img className='sm:absolute max-sm:ml-auto right-0 bottom-0 max-sm:max-w-[250px] pointer-events-none' src={item.img} alt="pizza-img" />
                                 <div className="">

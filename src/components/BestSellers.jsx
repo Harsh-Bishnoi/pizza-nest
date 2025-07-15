@@ -28,7 +28,7 @@ const BestSellers = () => {
                 <p className="font-semibold text-[#010101] text-[28px] pt-[2px] text-center leading-[140%] whitespace-nowrap">{item.title}</p>
                 <p className='leading-[160%] text-[#5C5C5C] text-center pt-[2px]'>{item.description}</p>
                 <div className="flex justify-center mt-3">
-                  <CustomButton btnClass="px-[16.5px] py-[9px]" btnText="Order Now" />
+                  <CustomButton btnClass="px-[16.5px] py-[9px] btn-gradient" btnText="Order Now" />
                 </div>
               </div>
             ))}

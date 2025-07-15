@@ -30,10 +30,10 @@ const Header = () => {
               <li key={index}><a className='leading-[160%] text-[#787878]' href="">{items}</a></li>
             ))}
             <li className='lg:hidden'>
-              <CustomButton btnClass="px-8 py-[15px]" btnText="Contact Us" /></li>
+              <CustomButton btnClass="px-8 py-[15px] btn-gradient" btnText="Contact Us" /></li>
           </ul>
           <ul className='max-lg:hidden block'>
-            <CustomButton btnClass="px-8 py-[15px]" btnText="Contact Us" />
+            <CustomButton btnClass="px-8 py-[15px] btn-gradient" btnText="Contact Us" />
           </ul>
         </div>
       </nav>
