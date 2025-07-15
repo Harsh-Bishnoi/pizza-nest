@@ -1,9 +1,44 @@
-import React from 'react'
-
+import React, { useState, useEffect } from 'react';
+import CustomButton from '../common/CustomButton'
+import { HEADER_LINK } from '../../utils/helper';
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+  const [menuOpen, setMenuOpen] = useState(false);
 
-export default Header
+  const toggleNavbar = () => {
+    setMenuOpen(!menuOpen);
+    document.body.classList.toggle("overflow-hidden", !menuOpen);
+  };
+
+  useEffect(() => {
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, []);
+
+  return (
+    <div className="px-4">
+      <nav className='max-w-[1130px] mx-auto'>
+        <div className="flex justify-between items-center py-[23px]">
+          <a className='font-nunito-sans font-medium text-[34px] leading-[100%] ' href="#">Pizza Nest</a>
+          <div onClick={toggleNavbar} className="z-50 lg:hidden flex flex-col justify-between w-6 h-5 cursor-pointer">
+            <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen && 'rotate-45 translate-y-2'}`}></span>
+            <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen && 'opacity-0'}`}></span>
+            <span className={`block h-1 rounded-3xl bg-black transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
+          </div>
+          <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-6 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
+            {HEADER_LINK.map((items, index) => (
+              <li key={index}><a className='font-nunito leading-[160%] text-[#787878]' href="">{items}</a></li>
+            ))}
+            <li className='lg:hidden'>
+              <CustomButton btnClass="font-nunito-sans font-semibold " btnText="Contact Us" /></li>
+          </ul>
+          <ul className='max-lg:hidden block'>
+            <CustomButton btnClass="font-nunito-sans font-semibold " btnText="Contact Us" />
+          </ul>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Header;
