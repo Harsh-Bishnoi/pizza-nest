@@ -6,6 +6,7 @@ import Delicious from './components/Delicious'
 import BestSellers from './components/BestSellers'
 import Footer from './components/common/Footer'
 import Craving from './components/Craving'
+import Tasty from './components/Tasty'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <Delicious />
       <BestSellers />
+      <Tasty />
       <Craving />
       <Footer />
     </>
