@@ -12,9 +12,9 @@ const BestSellers = () => {
         <img className='absolute max-sm:hidden right-0 pointer-events-none max-md:-top-1/16 max-[1172px]:-top-1/12 min-[1172px]:-top-1/6 max-md:max-h-[170px] max-[1172px]:max-h-[200px]' src={tamatoImg} alt="tamato-img" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
-            <div className="border w-[60px]"></div>
+            <div className="triple-border-gradient relative rotate-180 w-[60px]"></div>
             <p className='font-bold leading-[120%] text-lg gradient-text'>Best Sellers</p>
-            <div className="border w-[60px]"></div>
+            <div className="triple-border-gradient relative w-[60px]"></div>
           </div>
           <Heading headingClass="text-center pt-2" headingText="Pizzas You Can’t Say No To" />
           <Description descriptionClass="text-[#373737] text-center pt-4" descriptionText="Tried, tested, and totally loved. These pizzas are always a crowd favorite." />

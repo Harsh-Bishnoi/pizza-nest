@@ -13,6 +13,43 @@ body {
     display: inline-block;
 }
 
+.triple-border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(85.93deg, #EC6112 1.55%, #FF902E 47.34%, rgba(254, 254, 254, 0) 90.56%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.small-border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 1px;
+    background: linear-gradient(85.95deg, rgba(236, 97, 18, 0.24) 1.54%, rgba(255, 144, 46, 0.24) 98.46%);
+    mask:
+        linear-gradient(#000 0 0) content-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
+
 .btn-gradient {
     background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
 }

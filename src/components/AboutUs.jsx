@@ -14,7 +14,7 @@ const AboutUs = () => {
             <div className="lg:max-w-[558px]">
               <div className="flex items-center gap-1.5">
                 <h5 className='font-bold text-lg leading-[120%] gradient-text'>About Us</h5>
-                <div className="border w-[60px] h-[1px]"></div>
+                <div className="small-border-gradient relative w-[60px] h-[1px]"></div>
               </div>
               <Heading headingClass="pt-2" headingText="Welcome to the" spanText="Nest" />
               <ul className='list-disc lg:max-w-[558px] ml-6 pt-4'>
@@ -24,7 +24,7 @@ const AboutUs = () => {
               <div className="flex flex-wrap mt-6 gap-4 sm:gap-6 lg:max-h-[135px] max-lg:justify-center">
                 {ABOUT_US_CARD_DATA.map((item, index) => (
                   <div className={`${index === 1 ? "sm:mt-3" : ""}`}>
-                    <div key={index} className="bg-[#FEFEFE] border w-full min-w-[160px] sm:max-w-[170px] sm:min-w-[170px] p-3 sm:p-4.5 shadow-[0px_1px_7px_0px_#F67A211F] rounded-xl border-dashed">
+                    <div key={index} className="bg-[#FEFEFE] relative gradient-border w-full min-w-[160px] sm:max-w-[170px] sm:min-w-[170px] p-3 sm:p-4.5 shadow-[0px_1px_7px_0px_#F67A211F] rounded-xl">
                       <div className="bg-[#FCECE2] size-[52px] mx-auto rounded-full flex justify-center items-center">{<item.img />}</div>
                       <p className='leading-[160%] text-center whitespace-nowrap text-[#474747] pt-2'>{item.title}</p>
                     </div>
