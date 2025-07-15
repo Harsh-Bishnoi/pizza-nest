@@ -28,7 +28,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="absolute right-[200px] xl:right-[434.16px] top-[200px] xl:top-[173.52px] hidden lg:block"><HeroLine /></div>
+          <div className="absolute right-[200px] xl:right-[394.16px] top-[200px] xl:top-[173.52px] hidden lg:block"><HeroLine /></div>
           <div className="absolute top-[164px] xl:top-[137px] right-[100px] max-lg:hidden xl:right-[335px] border-[#FFFFFFCC] border-2 size-[88px] rounded-full flex items-center justify-center text-white font-semibold text-[25.3px] leading-[120%]">₹ 299</div>
         </div>
       </div>
