@@ -7,10 +7,10 @@ import circleImg from '../assets/images/png/price-circle.png'
 const Hero = () => {
   return (
     <>
-      <div className="px-4 sm:px-6 md:px-10">
-        <div className="max-w-[1360px] mx-auto relative rounded-3xl bg-[url(../src/assets/images/png/hero-bg-img.png)] bg-cover bg-center sm:min-h-[410px] md:min-h-[610px] lg:min-h-[710px]">
-          <div className="px-4 sm:px-6 max-sm:pb-8 pt-8 md:pl-[50px] md:pt-[80px] lg:pt-[131px] lg:pl-[110px] z-1">
-            <h1 className='font-bold text-3xl sm:text-5xl md:text-[64px] leading-[120%] text-white max-w-[644px]'>Where Every Slice Feels Like Home</h1>
+      <div className="px-4 sm:px-6 lg:px-8 xl:px-10">
+        <div className="max-w-[1360px] mx-auto relative rounded-3xl bg-[url(../src/assets/images/png/hero-bg-img.png)] bg-cover bg-center sm:min-h-[410px] md:min-h-[610px] xl:min-h-[650px] min-[1330px]:!min-h-[710px] ">
+          <div className="px-4 sm:px-6 max-sm:pb-8 pt-8 md:pl-[50px] md:pt-[80px] lg:pt-[105px] xl:pt-[131px] lg:pl-[110px] z-1 relative">
+            <h1 className='font-bold text-3xl sm:text-5xl lg:text-[60px] xl:text-[64px] leading-[120%] text-white max-w-[644px]'>Where Every Slice Feels Like Home</h1>
             <Description descriptionClass="text-[#EFEFEF] max-w-[530px] pt-4" descriptionText="At Pizza Nest, we bake more than pizza — we bake comfort. Customize 
             your perfect slice, or choose from our signature favorites"/>
             <div className="flex gap-4 sm:gap-6 mt-5.5 sm:mt-8 flex-wrap">
@@ -29,9 +29,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="absolute right-[200px] xl:right-[394.16px] top-[200px] xl:top-[173.52px] hidden lg:block"><HeroLine /></div>
-          <img className='absolute top-[164px] xl:top-[137px] right-[100px] max-lg:hidden xl:right-[283px]' src={circleImg} alt="circle-img" />
-          <div className="absolute top-[176px] xl:top-[151px] right-[113px] max-lg:hidden xl:right-[295px] border-[#FFFFFFCC] border-2 size-[88px] rounded-full flex items-center justify-center text-white font-semibold text-[25.3px] leading-[120%]">₹ 299</div>
+          <div className="absolute max-xl:right-[300px] xl:right-[394.16px] max-xl:!top-[150px] max-[1415px]:!top-[120px] min-[1415px]:top-[173.52px] hidden lg:block"><HeroLine /></div>
+          <img className='absolute max-xl:top-[200px] max-xl:right-[200px] max-xl:max-w-[90px] max-xl:max-h-[90px] max-[1415px]:top-[123px] min-[1415px]:top-[137px] right-[100px] max-lg:hidden max-[1415px]:right-[250px] min-[1415px]:right-[283px]' src={circleImg} alt="circle-img" />
+          <div className="absolute max-xl:top-[210px] max-xl:right-[210px] max-[1415px]:top-[137px] min-[1415px]:top-[151px] right-[113px] max-lg:hidden max-[1415px]:right-[262px] min-[1415px]:right-[295px] border-[#FFFFFFCC] border-2 size-[70px] xl:size-[88px] rounded-full flex items-center justify-center text-white font-semibold text-xl xl:text-[25.3px] leading-[120%]">₹ 299</div>
         </div>
       </div>
     </>
