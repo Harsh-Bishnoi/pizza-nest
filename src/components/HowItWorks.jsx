@@ -25,7 +25,10 @@ const HowItWorks = () => {
               <div className="max-w-[358px] lg:max-w-[364px] w-full p-4 lg:p-6" key={index}>
                 <div className="bg-[#FCECE2] size-[70px] rounded-full flex items-center justify-center mx-auto">{<item.icon />}</div>
                 <h3 className='leading-[150%] text-2xl font-semibold text-center mt-3'>{item.title}</h3>
-                <Description descriptionClass="text-center !text-[#373737] pt-2" descriptionText={item.description} />
+                <Description
+                  descriptionClass={`text-center !text-[#373737] pt-2 ${index === 1
+                    ? "max-w-[290px]" : index === 2 ? "max-w-[300px]" : ""}`}
+                  descriptionText={item.description} />
                 <div className="flex justify-center">
                   <CustomButton btnClass="btn-gradient py-[9px] mt-3 px-[16.5px]" btnText="View Menu" />
                 </div>
