@@ -8,6 +8,7 @@ import Footer from './components/common/Footer'
 import Craving from './components/Craving'
 import Tasty from './components/Tasty'
 import FoodDelivery from './components/FoodDelivery'
+import HowItWorks from './components/HowItWorks'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <BestSellers />
       <Tasty />
       <FoodDelivery />
+      <HowItWorks />
       <Craving />
       <Footer />
     </>

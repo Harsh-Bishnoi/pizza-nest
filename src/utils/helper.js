@@ -1,4 +1,4 @@
-import { ChefIcon, FacebookIcon, InstaIcon, LinkdinIcon, QualityIcon, SupportIcon } from "./Icons"
+import { ChefIcon, FacebookIcon, InstaIcon, LinkdinIcon, LocationIcon, OrderIcon, PizzaIcon, QualityIcon, SupportIcon } from "./Icons"
 import paneerPizza from "../assets/images/png/paneer-pizza.png";
 import cheesePizza from "../assets/images/png/cheese-pizza.png";
 import tandooriPizza from "../assets/images/png/tandoori-paneer.png";
@@ -115,4 +115,22 @@ export const FOOD_DELIVERY_DATA = [
     "Hygienic, Contactless Delivery",
     "Real-time Order Tracking",
     "Eco-Friendly Packaging"
+]
+
+export const HOW_IT_WORKS_DATA = [
+    {
+        icon: PizzaIcon,
+        title: "Choose Your Pizza",
+        description: "Browse our mouthwatering menu and pick your favorite from a wide range of cheesy, spicy, and desi-delicious pizzas.",
+    },
+    {
+        icon: OrderIcon,
+        title: "Place Your Order",
+        description: "Confirm your cart, choose delivery or pickup, and pay securely — all in under a minute.",
+    },
+    {
+        icon: LocationIcon,
+        title: "Track & Enjoy",
+        description: "Watch your pizza arrive in real-time, fresh and hot at your door. Unbox happiness and dig in!",
+    }
 ]
