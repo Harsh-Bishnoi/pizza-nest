@@ -31,7 +31,7 @@ const Testimonial = () => {
                 {AVATAR_IMAGES.map((avatar, index) => (
                   <img key={index} src={avatar} alt="avatar-img"
                     className={`max-[475px]:!w-[35px] max-[475px]:!h-[35px] pointer-events-none outline-0 max-sm:h-[45px] max-sm:w-[45px] sm:w-[60px] sm:h-[60px] rounded-full transition duration-200 ease-in-out
-                      ${activeIndex === index ? 'ring-[#FADCC7] ring-3 scale-104 transition-all duration-200 ease-linear' : ''}`} />
+                      ${activeIndex === index ? 'ring-muffin ring-3 scale-104 transition-all duration-200 ease-linear' : ''}`} />
                 ))}
               </div>
             </div>
@@ -50,17 +50,17 @@ const Testimonial = () => {
                   <SwiperSlide className="p-4 md:p-6" key={index}>
                     <img className='absolute max-sm:hidden top-0 left-0 pointer-events-none' src={leftComma} alt="comma-img" />
                     <img className='absolute top-[91px] max-sm:hidden right-[84px] pointer-events-none' src={rightComma} alt="comma-img" />
-                    <Description descriptionClass="text-[#545454]" descriptionText={item.description} />
+                    <Description descriptionClass="text-brilliant" descriptionText={item.description} />
                     <h3 className='text-2xl leading-[140%] font-semibold pt-4'>{item.title}</h3>
-                    <Description descriptionClass="text-[#545454] pt-[2px]" descriptionText={item.job} />
+                    <Description descriptionClass="text-brilliant pt-[2px]" descriptionText={item.job} />
                   </SwiperSlide>
                 ))}
               </Swiper>
               <div className="flex items-center absolute z-10 bottom-6 left-6 mt-6 gap-1">
-                <div className="size-[44px] prevBtn flex justify-center !bg-[#EEEEEE] items-center rounded-sm cursor-pointer group transition-all duration-200 ease-linear hover:bg-gradient-to-r from-[#EC6112] to-[#FF902E]">
+                <div className="size-[44px] prevBtn flex justify-center !bg-silver items-center rounded-sm cursor-pointer group transition-all duration-200 ease-linear hover:bg-gradient-to-r from-[#EC6112] to-[#FF902E]">
                   <PrevArrow />
                 </div>
-                <div className="size-[44px] nextBtn flex justify-center !bg-[#EEEEEE] items-center rounded-sm cursor-pointer group transition-all duration-200 ease-linear hover:bg-gradient-to-r from-[#EC6112] to-[#FF902E]">
+                <div className="size-[44px] nextBtn flex justify-center !bg-silver items-center rounded-sm cursor-pointer group transition-all duration-200 ease-linear hover:bg-gradient-to-r from-[#EC6112] to-[#FF902E]">
                   <NextArrow />
                 </div>
               </div>

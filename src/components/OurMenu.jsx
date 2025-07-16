@@ -13,16 +13,16 @@ const OurMenu = () => {
       <div className="flex flex-wrap justify-center gap-x-6 gap-y-1">
         {TAB_PANNEL_DATA.map((item, i) => (
           <div key={i} className="max-w-[364px] w-full group">
-            <img className='border border-transparent object-cover group-hover:border-[#00000014] rounded-[12px] w-full pointer-events-none max-w-[364px] max-h-[292px]' src={item.img} alt="img" />
-            <div className="max-w-[324px] transform -translate-y-[20px] mx-auto rounded-lg border border-[#00000014] bg-white w-full p-5">
+            <img className='border border-transparent object-cover group-hover:border-black/8 rounded-[12px] w-full pointer-events-none max-w-[364px] max-h-[292px]' src={item.img} alt="img" />
+            <div className="max-w-[324px] transform -translate-y-[20px] mx-auto rounded-lg border border-black/8 bg-white w-full p-5">
               <div className="flex justify-center">
                 <p className='text-2xl leading-[140%] font-semibold gradient-text'>
                   {item[priceKey]}
                 </p>
               </div>
-              <h3 className='text-2xl font-semibold leading-[140%] text-[#010101] text-center pt-[2px]'>{item.title}</h3>
+              <h3 className='text-2xl font-semibold leading-[140%] text-near-black text-center pt-[2px]'>{item.title}</h3>
               <p
-                className={`pt-[2px] text-[#5C5C5C] leading-[160%] text-center ${i === 2 ? "max-w-[270px]" : ""
+                className={`pt-[2px] text-unmuted-gray leading-[160%] text-center ${i === 2 ? "max-w-[270px]" : ""
                   }`}
               >
                 {item.description}
@@ -52,7 +52,7 @@ const OurMenu = () => {
               {TAB_BTN_DATA.map((btn, index) => (
                 <Tab
                   key={index}
-                  className="border border-[#C1C1C1] max-w-[150px] sm:max-w-[170px] w-full cursor-pointer active:scale-95 transition-all duration-100 ease-linear text-center outline-0 px-2 sm:px-5 py-3 text-[#C1C1C1] font-semibold leading-[100%] rounded-xl"
+                  className="border border-light-gray max-w-[150px] sm:max-w-[170px] w-full cursor-pointer active:scale-95 transition-all duration-100 ease-linear text-center outline-0 px-2 sm:px-5 py-3 text-light-gray font-semibold leading-[100%] rounded-xl"
                   selectedClassName="tab-btn-gradient text-white border-none"
                 >
                   {btn}

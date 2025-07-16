@@ -23,10 +23,10 @@ const HowItWorks = () => {
             <div className="absolute max-md:rotate-90 max-md:block max-[1172px]:hidden top-[50%] md:right-[279px] max-md:top-[68%] min-[1172px]:top-[100px]"><ArrowIcon /></div>
             {HOW_IT_WORKS_DATA.map((item, index) => (
               <div className="max-w-[358px] lg:max-w-[364px] w-full p-4 lg:p-6" key={index}>
-                <div className="bg-[#FCECE2] size-[70px] rounded-full flex items-center justify-center mx-auto">{<item.icon />}</div>
+                <div className="bg-natural-white size-[70px] rounded-full flex items-center justify-center mx-auto">{<item.icon />}</div>
                 <h3 className='leading-[150%] text-2xl font-semibold text-center mt-3'>{item.title}</h3>
                 <Description
-                  descriptionClass={`text-center !text-[#373737] pt-2 ${index === 1
+                  descriptionClass={`text-center !text-dark-gray pt-2 ${index === 1
                     ? "max-w-[290px]" : index === 2 ? "max-w-[300px]" : ""}`}
                   descriptionText={item.description} />
                 <div className="flex justify-center">

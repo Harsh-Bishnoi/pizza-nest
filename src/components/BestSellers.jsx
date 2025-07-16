@@ -17,16 +17,16 @@ const BestSellers = () => {
             <div className="triple-border-gradient relative w-[60px]"></div>
           </div>
           <Heading headingClass="text-center pt-2" headingText="Pizzas You Can’t Say No To" />
-          <Description descriptionClass="text-[#373737] text-center pt-4" descriptionText="Tried, tested, and totally loved. These pizzas are always a crowd favorite." />
+          <Description descriptionClass="text-dark-gray text-center pt-4" descriptionText="Tried, tested, and totally loved. These pizzas are always a crowd favorite." />
           <div className="pt-25 sm:pt-[125px] flex-wrap justify-center flex gap-x-6 gap-y-20">
             {BESTSELLER_DATA.map((item, index) => (
-              <div className="max-w-[267px] relative bg-[#FEFEFE] border border-[#0000000F] rounded-bl-xl rounded-tr-xl p-6" key={index}>
+              <div className="max-w-[267px] relative bg-off-white border border-black/6 rounded-bl-xl rounded-tr-xl p-6" key={index}>
                 <img className='absolute transform -top-[21%] max-w-[130px] max-h-[130px] object-cover pointer-events-none -translate-x-1/2 left-1/2' src={item.img} alt="pizza-img" />
                 <div className="flex justify-center pt-[61px]">
                   <h3 className='gradient-text font-semibold text-[32px] leading-[140%]'>{item.price}</h3>
                 </div>
-                <p className="font-semibold text-[#010101] text-[28px] pt-[2px] text-center leading-[140%] whitespace-nowrap">{item.title}</p>
-                <p className='leading-[160%] text-[#5C5C5C] text-center pt-[2px]'>{item.description}</p>
+                <p className="font-semibold text-near-black text-[28px] pt-[2px] text-center leading-[140%] whitespace-nowrap">{item.title}</p>
+                <p className='leading-[160%] text-unmuted-gray text-center pt-[2px]'>{item.description}</p>
                 <div className="flex justify-center mt-3">
                   <CustomButton btnClass="px-[16.5px] py-[9px] btn-gradient" btnText="Order Now" />
                 </div>
