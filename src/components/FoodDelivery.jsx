@@ -9,7 +9,7 @@ import foodDelivery from '../assets/images/png/food-delivery-img.png'
 const FoodDelivery = () => {
   return (
     <>
-      <div className="px-4 py-25">
+      <div className="px-4 py-25 bg-[url(src/assets/images/png/about-us-bg-img.png)]">
         <div className="max-w-[1140px] mx-auto">
           <div className="flex gap-[33px] max-lg:flex-wrap justify-center">
             <div className="lg:max-w-[495px]">
