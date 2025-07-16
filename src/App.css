@@ -50,6 +50,10 @@ body {
     mask-composite: exclude;
 }
 
+.tab-btn-gradient {
+    background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
+}
+
 .btn-gradient {
     background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
 }

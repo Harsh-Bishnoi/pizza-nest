@@ -9,6 +9,7 @@ import Craving from './components/Craving'
 import Tasty from './components/Tasty'
 import FoodDelivery from './components/FoodDelivery'
 import HowItWorks from './components/HowItWorks'
+import OurMenu from './components/OurMenu'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <AboutUs />
       <Delicious />
       <BestSellers />
+      <OurMenu />
       <Tasty />
       <FoodDelivery />
       <HowItWorks />

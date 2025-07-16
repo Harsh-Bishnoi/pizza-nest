@@ -1,11 +1,13 @@
-import { ChefIcon, FacebookIcon, InstaIcon, LinkdinIcon, LocationIcon, OrderIcon, PizzaIcon, QualityIcon, SupportIcon } from "./Icons"
+import { ChefIcon, FacebookIcon, InstaIcon, LinkdinIcon, LocationIcon, OrderIcon, PizzaIcon, QualityIcon, StarIcon, SupportIcon } from "./Icons"
 import paneerPizza from "../assets/images/png/paneer-pizza.png";
 import cheesePizza from "../assets/images/png/cheese-pizza.png";
 import tandooriPizza from "../assets/images/png/tandoori-paneer.png";
 import overloadPizza from "../assets/images/png/cheese-overload.png";
 import veggieFiesta from "../assets/images/png/veggie-fiesta.png";
 import masalaPaneer from "../assets/images/png/masala-paneer.png";
-
+import farmhouseMagic from '../assets/images/png/farmhouse-magic.png'
+import tabMasala from '../assets/images/png/tab-masala-paneer.png'
+import mealCombo from '../assets/images/png/meal-combo.png'
 
 export const HEADER_LINK = [
     {
@@ -132,5 +134,45 @@ export const HOW_IT_WORKS_DATA = [
         icon: LocationIcon,
         title: "Track & Enjoy",
         description: "Watch your pizza arrive in real-time, fresh and hot at your door. Unbox happiness and dig in!",
+    }
+]
+
+export const TAB_BTN_DATA = [
+    "All", "Veg Pizzas", "Non-Veg Pizzas", "Combos & Drinks", "Sides & Dips"
+]
+
+export const TAB_PANNEL_DATA = [
+    {
+        img: farmhouseMagic,
+        priceOne: "₹229 / ₹359 / ₹499",
+        priceTwo: "₹259 / ₹379 / ₹599",
+        priceThree: "₹279 / ₹399 / ₹699",
+        priceFour: "₹299 / ₹409 / ₹799",
+        priceFive: "₹329 / ₹459 / ₹899",
+        title: "Farmhouse Magic",
+        description: "Onion, capsicum, tomato, grilled mushroom, mozzarella cheese",
+        starImg: StarIcon
+    },
+    {
+        img: tabMasala,
+        priceOne: "₹299 / ₹399 / ₹519",
+        priceTwo: "₹309 / ₹449 / ₹549",
+        priceThree: "₹359 / ₹479 / ₹579",
+        priceFour: "₹379 / ₹499 / ₹599",
+        priceFive: "₹439 / ₹599 / ₹619",
+        title: "Masala Paneer",
+        description: "Masala-marinated paneer, sautéed onions, capsicum, mozzarella cheese",
+        starImg: StarIcon
+    },
+    {
+        img: mealCombo,
+        priceOne: "₹379",
+        priceTwo: "₹400",
+        priceThree: "₹479",
+        priceFour: "₹579",
+        priceFive: "₹679",
+        title: "Solo Meal Combo",
+        description: "1 Regular Pizza + Garlic Bread + 1 Soft Drink",
+        starImg: StarIcon
     }
 ]
