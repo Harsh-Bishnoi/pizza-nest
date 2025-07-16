@@ -15,6 +15,9 @@ import gallerImgFour from '../assets/images/png/gallery-img-4.png'
 import gallerImgFive from '../assets/images/png/gallery-img-5.png'
 import gallerImgSix from '../assets/images/png/gallery-img-6.png'
 import gallerImgSeven from '../assets/images/png/gallery-img-7.png'
+import avatarImgOne from '../assets/images/png/avatar-img-1.png';
+import avatarImgTwo from '../assets/images/png/avatar-img-2.png';
+import avatarImgThree from '../assets/images/png/avatar-img-3.png';
 
 export const HEADER_LINK = [
     {
@@ -205,4 +208,13 @@ export const TESTIMONIAL_DATA = [
         title: "Aarav Mehta",
         job: "Software Developer",
     },
+    {
+        description: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snack—just in pizza form! Super satisfying and definitely ordering again.",
+        title: "Aarav Mehta",
+        job: "Software Developer",
+    },
+]
+
+export const AVATAR_IMAGES = [
+    avatarImgOne, avatarImgTwo, avatarImgThree
 ]
