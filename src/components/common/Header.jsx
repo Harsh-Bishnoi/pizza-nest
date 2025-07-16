@@ -17,7 +17,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="px-4">
+    <div id='home' className="px-4">
       <nav className='max-w-[1130px] mx-auto'>
         <div className="flex justify-between items-center py-[23px]">
           <a className='font-medium text-[34px] leading-[100%] gradient-text' href="#">Pizza Nest</a>

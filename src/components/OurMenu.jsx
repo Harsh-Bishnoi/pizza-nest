@@ -8,7 +8,7 @@ import pizzaSlice from '../assets/images/png/our-menu-pizza-slice.png'
 const OurMenu = () => {
   return (
     <>
-      <div className="px-4 py-10 sm:py-17 md:py-25 relative">
+      <div id='menu' className="px-4 py-10 sm:py-17 md:py-25 relative">
         <img className='absolute max-sm:hidden op-[30px] left-0 max-md:w-[80px]' src={pizzaSlice} alt="pizza-slice" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">

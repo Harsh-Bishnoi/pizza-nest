@@ -27,7 +27,7 @@ const Footer = () => {
               <ul>
                 <li className='text-[#010101] leading-[160%] mb-1'>Quick Links</li>
                 {QUICK_LINKS.map((link, i) => (
-                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] hover:text-[#FB8628] transition-all duration-200 ease-linear' href="">{link}</a></li>
+                  <li className='mt-2' key={i}> <a className='text-[#575757] leading-[160%] hover:text-[#FB8628] transition-all duration-200 ease-linear' href={link.link}>{link.title}</a></li>
                 ))}
               </ul>
               <ul>

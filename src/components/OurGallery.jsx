@@ -6,7 +6,7 @@ import pizzaSlice from '../assets/images/png/gallery-pizza-slice.png'
 const OurGallery = () => {
   return (
     <>
-      <div className="px-4 py-10 sm:py-17 md:py-25 relative">
+      <div id='gallery' className="px-4 py-10 sm:py-17 md:py-25 relative">
         <img className='absolute right-0 max-sm:hidden max-md:w-[100px] top-[-50px] md:-top-[78px]' src={pizzaSlice} alt="pizza-slice" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">

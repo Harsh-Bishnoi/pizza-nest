@@ -22,23 +22,23 @@ import avatarImgThree from '../assets/images/png/avatar-img-3.png';
 export const HEADER_LINK = [
     {
         link: "Home",
-        path: ""
+        path: "#home"
     },
     {
         link: "Menu",
-        path: ""
+        path: "#menu"
     },
     {
         link: "Customize Pizza",
-        path: ""
+        path: "#customize"
     },
     {
         link: "Offers",
-        path: ""
+        path: "#offers"
     },
     {
         link: "About Us",
-        path: ""
+        path: "#aboutUs"
     }
 ]
 
@@ -115,7 +115,30 @@ export const SOCIAL_ICON = [
 ]
 
 export const QUICK_LINKS = [
-    "Home", "About Us", "Menu", "Gallery", "Testimonial", "Contact"
+    {
+        title: "Home",
+        link: "#home",
+    },
+    {
+        title: "About Us",
+        link: "#aboutUs",
+    },
+    {
+        title: "Menu",
+        link: "#menu",
+    },
+    {
+        title: "Gallery",
+        link: "#gallery",
+    },
+    {
+        title: "Testimonial",
+        link: "#testimonial",
+    },
+    {
+        title: "Contact",
+        link: "#home",
+    },
 ]
 
 export const SUPPORT_LINKS = [
