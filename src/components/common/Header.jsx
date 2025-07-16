@@ -29,7 +29,7 @@ const Header = () => {
           <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-6 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
             {HEADER_LINK.map((item, index) => (
               <li key={index}>
-                <a className={`leading-[160%] text-[#787878] ${index === 0 ? "gradient-text" : ""}`} href={item.path}>
+                <a className={`leading-[160%] text-[#787878] hover:text-[#F67920] transition-all duration-200 ease-linear ${index === 0 ? "gradient-text relative after:absolute after:bottom-[3px] after:left-0 after:h-0.5 after:bg-[#F67920] after:rounded after:w-full after:duration-300 after:ease-linear" : "relative after:absolute after:-bottom-[-0px] after:left-0 after:h-0.5 after:w-0 after:bg-[#F67920] after:rounded hover:after:w-full after:duration-300 after:ease-linear"}`} href={item.path}>
                   {item.link}
                 </a>
               </li>
