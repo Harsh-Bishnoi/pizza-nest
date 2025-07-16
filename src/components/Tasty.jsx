@@ -23,7 +23,7 @@ const Tasty = () => {
                             <img className='max-w-[400px] pointer-events-none lg:max-w-[553px] w-full' src={tastyPizza} alt="pizza-img" />
                             <img className='absolute pointer-events-none max-md:hidden bottom-[40px] max-lg:max-w-[50px] lg:bottom-[75.13px] left-0 lg:left-[2px]' src={redTopic} alt="red-topic" />
                             <img className='absolute pointer-events-none max-md:hidden max-lg:max-w-[60px] left-[64px] bottom-[1px]' src={greenLeave} alt="green-leave" />
-                            <img className='absolute pointer-events-none max-md:hidden max-lg:max-w-[40px] bottom-0 lg:bottom-[20px] right-0 xl:right-[-41.73px]' src={greenTopic} alt="green-topic" />
+                            <img className='absolute pointer-events-none max-md:hidden max-lg:max-w-[40px] bottom-0 lg:bottom-[20px] right-0 xl:right-[-36.73px]' src={greenTopic} alt="green-topic" />
                             <img className='absolute pointer-events-none max-md:hidden top-0 lg:top-[11px] right-0 max-lg:max-w-[100px] lg:right-[27.22px]' src={tasty} alt="tasty" />
                         </div>
                     </div>

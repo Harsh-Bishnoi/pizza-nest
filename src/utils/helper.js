@@ -188,7 +188,7 @@ export const TAB_PANNEL_DATA = [
     },
     {
         img: tabMasala,
-        priceOne: "₹299 / ₹399 / ₹519",
+        priceOne: "₹279 / ₹399 / ₹519",
         priceTwo: "₹309 / ₹449 / ₹549",
         priceThree: "₹359 / ₹479 / ₹579",
         priceFour: "₹379 / ₹499 / ₹599",

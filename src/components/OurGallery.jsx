@@ -1,8 +1,9 @@
 import React from 'react'
 import Heading from './common/Heading';
 import CustomButton from './common/CustomButton';
-// import { GALLERY_DATA } from '../utils/helper';
+import { GALLERY_DATA } from '../utils/helper';
 import pizzaSlice from '../assets/images/png/gallery-pizza-slice.png'
+
 const OurGallery = () => {
   return (
     <>
@@ -15,13 +16,23 @@ const OurGallery = () => {
             <div className="h-[1px] w-[60px] triple-border-gradient relative"></div>
           </div>
           <Heading headingClass="text-center mx-auto max-w-[568px] pt-2" headingText="A Glimpse Into Our Pizza World" />
-          {/* <div className="grid grid-cols-3 gap-2.5 md:gap-6 mt-10">
-            {GALLERY_DATA.map((item, index) => (
-              <div className="" key={index}>
-                <img className='rounded-xl' src={item} alt="image" />
+          <div className="flex xl:flex-row flex-col justify-center mx-auto items-center gap-4 w-full pt-10">
+            <div className="flex max-sm:flex-col xl:flex-col gap-4 w-full justify-center max-w-[558px] sm:max-w-[279px] xl:max-w-[267px]">
+              <img src={GALLERY_DATA[0]} alt="Pizza close-up" className="object-cover rounded-xl max-sm:max-h-[329px] w-full lg:h-[291px]" />
+              <img src={GALLERY_DATA[3]} alt="People eating outside" className="object-cover rounded-xl max-sm:max-h-[329px] w-full xl::max-w-[267px] xl:min-h-[248px] min-h-[291px] xl:max-h-[248px]" />
+            </div>
+            <div className="flex flex-col justify-center mx-auto gap-4 w-full max-w-[558px]">
+              <img src={GALLERY_DATA[1]} alt="Chef with pizza" className="object-cover rounded-xl w-full lg:min-w-[558px] mx-auto max-w-[558px] lg:max-h-[329px]" />
+              <div className="flex flex-col justify-center sm:flex-row max-sm:max-w-[558px] gap-4">
+                <img src={GALLERY_DATA[4]} alt="People eating at table" className="object-cover rounded-xl w-full max-sm:max-h-[329px] max-w-[558px] sm:max-w-[340px] lg:max-h-[210px]" />
+                <img src={GALLERY_DATA[5]} alt="Pizza with vegetables" className="object-cover rounded-xl w-full max-sm:max-h-[329px] sm:max-w-[194px] lg:max-h-[235px]" />
               </div>
-            ))}
-          </div> */}
+            </div>
+            <div className="flex max-sm:flex-col xl:flex-col gap-4 w-full justify-center max-sm:max-w-[558px] sm:max-w-[279px] lg:max-w-[267px]">
+              <img src={GALLERY_DATA[2]} alt="Top view pizza" className="object-cover rounded-xl w-full max-sm:max-h-[329px] lg:max-w-[267px] lg:max-h-[235px]" />
+              <img src={GALLERY_DATA[6]} alt="Person with pizza" className="object-cover rounded-xl w-full max-sm:max-h-[329px] sm:max-h-[235px] sm:min-w-[267px] xl:max-w-[267px] xl:max-h-[304px]" />
+            </div>
+          </div>
           <div className="flex justify-center mt-8">
             <CustomButton btnClass="px-[32.5px] btn-gradient py-[15px]" btnText="View More" />
           </div>
