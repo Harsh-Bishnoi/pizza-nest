@@ -109,3 +109,10 @@ export const QUICK_LINKS = [
 export const SUPPORT_LINKS = [
     "Terms & Conditions", "Privacy Policy"
 ]
+
+export const FOOD_DELIVERY_DATA = [
+    "30-Minute Delivery Promise",
+    "Hygienic, Contactless Delivery",
+    "Real-time Order Tracking",
+    "Eco-Friendly Packaging"
+]
