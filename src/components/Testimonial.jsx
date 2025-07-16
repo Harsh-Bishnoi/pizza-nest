@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Heading from './common/Heading';
 import Description from './common/Description';
 import pizzaImg from '../assets/images/png/testimonial-pizza-img.png';
+import rightComma from '../assets/images/png/right-comma.png'
+import leftComma from '../assets/images/png/left-comma.png'
 import { AVATAR_IMAGES, TESTIMONIAL_DATA } from '../utils/helper';
 import { NextArrow, PrevArrow } from '../utils/Icons';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,8 +26,8 @@ const Testimonial = () => {
           <Heading headingClass="text-center pt-2" headingText="What Our Customers Say" />
           <div className="pt-6 sm:pt-9 md:pt-15 lg:pl-[37px] relative">
             <div className="relative max-w-[523px] w-full max-lg:mx-auto">
-              <img className='max-lg:mx-auto w-full pointer-events-none' src={pizzaImg} alt="pizza-img" />
-              <div className="flex gap-3 sm:gap-4 flex-col top-1/2 -translate-y-1/2 absolute -left-[10px] sm:-left-[30px]">
+              <img className='max-lg:mx-auto w-full pointer-events-none max-w-[523px] max-h-[362px] object-cover ' src={pizzaImg} alt="pizza-img" />
+              <div className="flex gap-3 sm:gap-4 flex-col top-1/2 -translate-y-1/2 absolute -left-[10px] sm:-left-[32px]">
                 {AVATAR_IMAGES.map((avatar, index) => (
                   <img key={index} src={avatar} alt="avatar-img"
                     className={`max-[475px]:!size-[35px] pointer-events-none outline-0 max-sm:size-[40px] rounded-full transition duration-200 ease-in-out
@@ -46,6 +48,8 @@ const Testimonial = () => {
                 className="shadow-[0px_4px_15.4px_0px_#0000000F] bg-white rounded-xl lg:max-w-[680px] max-[455px]:min-h-[360px] min-h-[310px] sm:min-h-[298px]" >
                 {TESTIMONIAL_DATA.map((item, index) => (
                   <SwiperSlide className="p-4 md:p-6" key={index}>
+                    <img className='absolute max-sm:hidden top-0 left-0 pointer-events-none' src={leftComma} alt="comma-img" />
+                    <img className='absolute top-[91px] max-sm:hidden right-[84px] pointer-events-none' src={rightComma} alt="comma-img" />
                     <Description descriptionClass="text-[#545454]" descriptionText={item.description} />
                     <h3 className='text-2xl leading-[140%] font-semibold pt-4'>{item.title}</h3>
                     <Description descriptionClass="text-[#545454] pt-[2px]" descriptionText={item.job} />
