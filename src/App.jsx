@@ -11,6 +11,7 @@ import FoodDelivery from './components/FoodDelivery'
 import HowItWorks from './components/HowItWorks'
 import OurMenu from './components/OurMenu'
 import OurGallery from './components/OurGallery'
+import Testimonial from './components/Testimonial'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Tasty />
       <FoodDelivery />
       <HowItWorks />
+      <Testimonial />
       <OurGallery />
       <Craving />
       <Footer />

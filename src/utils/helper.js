@@ -193,3 +193,16 @@ export const GALLERY_DATA = [
     gallerImgSix,
     gallerImgSeven
 ]
+
+export const TESTIMONIAL_DATA = [
+    {
+        description: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snack—just in pizza form! Super satisfying and definitely ordering again.",
+        title: "Aarav Mehta",
+        job: "Software Developer",
+    },
+    {
+        description: "The Masala Paneer Pizza was bursting with flavor! The paneer was perfectly marinated in Indian spices, and the balance of onions, capsicum, and cheese was spot on. It tasted like my favorite desi snack—just in pizza form! Super satisfying and definitely ordering again.",
+        title: "Aarav Mehta",
+        job: "Software Developer",
+    },
+]

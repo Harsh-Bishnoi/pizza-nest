@@ -179,3 +179,16 @@ export const StarIcon = () => (
         <path d="M123.62 1.17082C123.739 0.802296 124.261 0.802296 124.38 1.17082L126.604 8.0154C126.658 8.18021 126.811 8.2918 126.985 8.2918H134.182C134.569 8.2918 134.73 8.78764 134.417 9.0154L128.594 13.2456C128.454 13.3474 128.396 13.528 128.449 13.6928L130.673 20.5374C130.793 20.9059 130.371 21.2124 130.057 20.9846L124.235 16.7544C124.095 16.6526 123.905 16.6526 123.765 16.7544L117.943 20.9846C117.629 21.2124 117.207 20.9059 117.327 20.5374L119.551 13.6928C119.604 13.528 119.546 13.3474 119.406 13.2456L113.583 9.0154C113.27 8.78764 113.431 8.2918 113.818 8.2918H121.015C121.189 8.2918 121.342 8.18021 121.396 8.0154L123.62 1.17082Z" fill="#FFEF0D" />
     </svg>
 )
+
+export const PrevArrow = () => (
+    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path className="group-hover:stroke-[#FEFEFE]" d="M1 7L15 7M1 7L7 1M1 7L7 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+)
+
+export const NextArrow = () => (
+    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path className="group-hover:stroke-[#FEFEFE]" d="M15 7L1 7M15 7L9 1M15 7L9 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+
+)
