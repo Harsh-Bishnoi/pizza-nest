@@ -10,6 +10,7 @@ import Tasty from './components/Tasty'
 import FoodDelivery from './components/FoodDelivery'
 import HowItWorks from './components/HowItWorks'
 import OurMenu from './components/OurMenu'
+import OurGallery from './components/OurGallery'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Tasty />
       <FoodDelivery />
       <HowItWorks />
+      <OurGallery />
       <Craving />
       <Footer />
     </>

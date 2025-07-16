@@ -8,6 +8,13 @@ import masalaPaneer from "../assets/images/png/masala-paneer.png";
 import farmhouseMagic from '../assets/images/png/farmhouse-magic.png'
 import tabMasala from '../assets/images/png/tab-masala-paneer.png'
 import mealCombo from '../assets/images/png/meal-combo.png'
+import gallerImgOne from '../assets/images/png/gallery-img-1.png'
+import gallerImgTwo from '../assets/images/png/gallery-img-2.png'
+import gallerImgThree from '../assets/images/png/gallery-img-3.png'
+import gallerImgFour from '../assets/images/png/gallery-img-4.png'
+import gallerImgFive from '../assets/images/png/gallery-img-5.png'
+import gallerImgSix from '../assets/images/png/gallery-img-6.png'
+import gallerImgSeven from '../assets/images/png/gallery-img-7.png'
 
 export const HEADER_LINK = [
     {
@@ -175,4 +182,14 @@ export const TAB_PANNEL_DATA = [
         description: "1 Regular Pizza + Garlic Bread + 1 Soft Drink",
         starImg: StarIcon
     }
+]
+
+export const GALLERY_DATA = [
+    gallerImgOne,
+    gallerImgTwo,
+    gallerImgThree,
+    gallerImgFour,
+    gallerImgFive,
+    gallerImgSix,
+    gallerImgSeven
 ]
