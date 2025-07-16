@@ -10,7 +10,7 @@ const Delicious = () => {
                 <div className="max-w-[1140px] mx-auto">
                     <div className="flex max-lg:flex-wrap gap-6 items-center">
                         {DELICIOUS_DATA.map((item, index) => (
-                            <div className="max-w-[700px] mx-auto lg:max-w-[558px] relative w-full min-h-[319px] pl-4 sm:pl-8 py-4 sm:py-[63px] rounded-xl bg-[url(src/assets/images/png/delicious-bg-img.png)]" key={index}>
+                            <div className="max-w-[700px] mx-auto lg:max-w-[558px] relative w-full min-h-[319px] pl-4 sm:pl-8 py-4 sm:py-[63px] rounded-xl bg-[url(../src/assets/images/png/delicious-bg-img.png)]" key={index}>
                                 <div className="z-1 relative max-w-max">
                                     <h5 className='text-xl sm:text-[28px] leading-[160%] gradient-text'>Delicious</h5>
                                     <h2 className='text-white text-[28px] sm:text-4xl font-semibold leading-[160%]'>{item.title}</h2>

@@ -7,7 +7,7 @@ import CustomButton from './common/CustomButton'
 const HowItWorks = () => {
   return (
     <>
-      <div className="px-4 py-25">
+      <div className="px-4 py-10 sm:py-17 md:py-25">
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
             <div className="h-[1px] w-[60px] triple-border-gradient relative rotate-180"></div>

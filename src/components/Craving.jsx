@@ -6,7 +6,7 @@ import CustomButton from './common/CustomButton';
 const Craving = () => {
     return (
         <>
-            <div className="bg-[url(src/assets/images/png/craving-bg-img.png)] px-4 relative">
+            <div className="bg-[url(../src/assets/images/png/craving-bg-img.png)] px-4 relative">
                 <div className="bg-black opacity-88 inset-0 absolute top-0 left-0"></div>
                 <div className="max-w-[1140px] mx-auto">
                     <div className="py-10 sm:py-15 md:py-20 relative z-1">
