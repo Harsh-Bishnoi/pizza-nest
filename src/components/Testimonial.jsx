@@ -30,7 +30,7 @@ const Testimonial = () => {
               <div className="flex gap-3 sm:gap-4 flex-col top-1/2 -translate-y-1/2 absolute -left-[10px] sm:-left-[32px]">
                 {AVATAR_IMAGES.map((avatar, index) => (
                   <img key={index} src={avatar} alt="avatar-img"
-                    className={`max-[475px]:!size-[35px] pointer-events-none outline-0 max-sm:size-[40px] rounded-full transition duration-200 ease-in-out
+                    className={`max-[475px]:!w-[35px] max-[475px]:!h-[35px] pointer-events-none outline-0 max-sm:h-[45px] max-sm:w-[45px] sm:w-[60px] sm:h-[60px] rounded-full transition duration-200 ease-in-out
                       ${activeIndex === index ? 'ring-[#FADCC7] ring-3 scale-104 transition-all duration-200 ease-linear' : ''}`} />
                 ))}
               </div>

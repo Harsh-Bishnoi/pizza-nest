@@ -38,7 +38,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="border-3 border-[#D1D1D166] w-full mt-6 sm:mt-8"></div>
+          <div className="border-2 border-[#D1D1D166] w-full mt-6 sm:mt-8"></div>
           <Description descriptionClass="text-[#575757] max-sm:text-sm py-4 text-center" descriptionText={`Copyright Pizza Nest © ${new Date().getFullYear()}, All rights reserved`}
           />
         </div>
