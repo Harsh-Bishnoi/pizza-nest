@@ -12,6 +12,7 @@ import HowItWorks from './components/HowItWorks'
 import OurMenu from './components/OurMenu'
 import OurGallery from './components/OurGallery'
 import Testimonial from './components/Testimonial'
+import BackToTop from './components/common/BackToTop'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <OurGallery />
       <Craving />
       <Footer />
+      <BackToTop />
     </>
   )
 }
