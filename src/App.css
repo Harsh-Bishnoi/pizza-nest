@@ -41,19 +41,6 @@ body {
     mask-composite: exclude;
 }
 
-.gradient-border::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 12px;
-    padding: 1px;
-    background: linear-gradient(85.95deg, rgba(236, 97, 18, 0.24) 1.54%, rgba(255, 144, 46, 0.24) 98.46%);
-    mask:
-        linear-gradient(#000 0 0) content-box,
-        linear-gradient(#000 0 0);
-    mask-composite: exclude;
-}
-
 .tab-btn-gradient {
     background: linear-gradient(85.95deg, #EC6112 1.54%, #FF902E 98.46%);
 }
