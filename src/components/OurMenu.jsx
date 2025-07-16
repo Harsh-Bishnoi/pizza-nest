@@ -43,7 +43,7 @@ const OurMenu = () => {
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
             <div className="h-[1px] w-[60px] triple-border-gradient relative rotate-180"></div>
-            <h3 className='gradient-text text-lg font-bold leading-[120%]'>Our Menu</h3>
+            <h3 className='gradient-text text-lg font-bold leading-[100%]'>Our Menu</h3>
             <div className="h-[1px] w-[60px] triple-border-gradient relative"></div>
           </div>
           <Heading headingClass="max-w-[568px] mx-auto text-center pt-2" headingText="Explore Flavours, Pick Your Cravings" />
@@ -78,7 +78,7 @@ const OurMenu = () => {
             </div>
           </Tabs>
           <div className="flex justify-center">
-            <CustomButton btnClass="btn-gradient px-[32.5px] mt-3 py-[15px]" btnText="View More" />
+            <CustomButton btnClass="btn-gradient px-[32.5px] mt-2 py-[15px]" btnText="View More" />
           </div>
         </div>
       </div>

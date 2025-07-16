@@ -26,7 +26,7 @@ const FoodDelivery = () => {
               </ul>
               <CustomButton btnClass="btn-gradient px-[32.5px] mt-6 py-[15px]" btnText="Order Now" />
             </div>
-            <img className='max-w-[500px] pointer-events-none xl:max-w-[612px] w-full' src={foodDelivery} alt="" />
+            <img className='max-w-[500px] pointer-events-none xl:max-w-[612px] max-h-[477px]  w-full' src={foodDelivery} alt="food delivery-img" />
           </div>
         </div>
       </div>
