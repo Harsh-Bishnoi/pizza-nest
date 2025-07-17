@@ -34,7 +34,7 @@ const Header = () => {
           <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-6 mb-0 ${menuOpen ? "show-navbar" : ""}`}>
             {HEADER_LINK.map((item, index) => (
               <li key={index}>
-                <a onClick={handleLinkClick} className={`leading-[160%] text-muted-gray hover:text-light-orange transition-all duration-200 ease-linear ${index === 0 ? "gradient-text relative after:absolute after:bottom-[3px] after:left-0 after:h-0.5 after:bg-light-orange after:rounded after:w-full after:duration-300 after:ease-linear" : "relative after:absolute after:-bottom-[-0px] after:left-0 after:h-0.5 after:w-0 after:bg-light-orange after:rounded hover:after:w-full after:duration-300 after:ease-linear"}`} href={item.path}>
+                <a onClick={handleLinkClick} className={`leading-[160%] text-muted-gray hover:text-light-orange transition-all duration-200 ease-linear relative after:absolute after:-bottom-[-0px] after:left-0 after:h-0.5 after:w-0 after:bg-light-orange after:rounded hover:after:w-full after:duration-300 after:ease-linear`} href={item.path}>
                   {item.link}
                 </a>
               </li>

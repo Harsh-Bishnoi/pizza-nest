@@ -26,7 +26,7 @@ body {
     --color-black-tie: #474747;
     --color-ornery: #f67a21;
     --color-instant-orange: #FD8B2B;
-    --color-snowbank:#E9E9E9 ;
+    --color-snowbank: #E9E9E9;
     --color-disco-ball: #D5D5D5;
     --color-dark-gray: #373737;
     --color-muffin: #FADCC7;
@@ -45,7 +45,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    padding: 1px;
+    padding: 0.5px;
     background: linear-gradient(85.93deg, #EC6112 1.55%, #FF902E 47.34%, rgba(254, 254, 254, 0) 90.56%);
     mask:
         linear-gradient(#000 0 0) content-box,
