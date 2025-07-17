@@ -13,7 +13,7 @@ const OurMenu = () => {
       <div className="flex flex-wrap justify-center gap-x-6 gap-y-1">
         {TAB_PANNEL_DATA.map((item, i) => (
           <div key={i} className="max-w-[364px] w-full group">
-            <img className='border border-transparent object-cover group-hover:border-black/8 rounded-[12px] w-full pointer-events-none max-w-[364px] max-h-[292px]' src={item.img} alt="img" />
+            <img className='border border-transparent object-cover group-hover:border-black/8 rounded-t-[12px] w-full pointer-events-none max-w-[364px] max-h-[292px]' src={item.img} alt="img" />
             <div className="max-w-[324px] transform -translate-y-[20px] mx-auto rounded-lg border border-black/8 bg-white w-full p-5">
               <div className="flex justify-center">
                 <p className='text-2xl leading-[140%] font-semibold gradient-text'>
