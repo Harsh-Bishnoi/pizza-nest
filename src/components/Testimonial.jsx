@@ -35,7 +35,7 @@ const Testimonial = () => {
                 ))}
               </div>
             </div>
-            <div className="lg:absolute bottom-[-76px] right-0 max-lg:mt-4">
+            <div className="lg:absolute max-lg:mx-auto max-lg:relative max-w-[680px] lg:bottom-[-76px] right-0 max-lg:mt-4">
               <Swiper
                 modules={[Navigation]}
                 loop={true}
@@ -45,7 +45,7 @@ const Testimonial = () => {
                   nextEl: ".nextBtn",
                   prevEl: ".prevBtn",
                 }}
-                className="shadow-[0px_4px_15.4px_0px_#0000000F] bg-white rounded-xl lg:max-w-[680px] max-[455px]:min-h-[360px] min-h-[310px] sm:min-h-[298px]" >
+                className="shadow-[0px_4px_15.4px_0px_#0000000F] bg-white rounded-xl max-w-[680px] max-[455px]:min-h-[360px] min-h-[310px] sm:min-h-[298px]" >
                 {TESTIMONIAL_DATA.map((item, index) => (
                   <SwiperSlide className="p-4 md:p-6" key={index}>
                     <img className='absolute max-sm:hidden top-0 left-0 pointer-events-none' src={leftComma} alt="comma-img" />
