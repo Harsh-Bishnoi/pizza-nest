@@ -52,7 +52,7 @@ const OurMenu = () => {
               {TAB_BTN_DATA.map((btn, index) => (
                 <Tab
                   key={index}
-                  className="border border-light-gray max-w-[150px] sm:max-w-[170px] w-full cursor-pointer active:scale-95 transition-all duration-100 ease-linear text-center outline-0 px-2 sm:px-5 py-3 text-light-gray font-semibold leading-[100%] rounded-xl"
+                  className="border border-light-gray max-w-[150px] sm:max-w-[170px] w-full cursor-pointer transition-all duration-100 ease-linear text-center outline-0 px-2 sm:px-5 py-3 text-light-gray font-semibold leading-[100%] rounded-xl"
                   selectedClassName="tab-btn-gradient text-white border-none"
                 >
                   {btn}
