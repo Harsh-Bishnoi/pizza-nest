@@ -182,13 +182,13 @@ export const StarIcon = () => (
 
 export const PrevArrow = () => (
     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path className="group-hover:stroke-[#FEFEFE]" d="M1 7L15 7M1 7L7 1M1 7L7 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path className="group-hover:stroke-[#FEFEFE]" d="M1 7L15 7M1 7L7 1M1 7L7 13" stroke="#333333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 )
 
 export const NextArrow = () => (
     <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path className="group-hover:stroke-[#FEFEFE]" d="M15 7L1 7M15 7L9 1M15 7L9 13" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path className="group-hover:stroke-[#FEFEFE]" d="M15 7L1 7M15 7L9 1M15 7L9 13" stroke="#333333" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 
 )
