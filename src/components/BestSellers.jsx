@@ -21,7 +21,7 @@ const BestSellers = () => {
           <div className="pt-25 sm:pt-[125px] flex-wrap justify-center flex gap-x-6 gap-y-20">
             {BESTSELLER_DATA.map((item, index) => (
               <div data-aos="fade-up" className="max-w-[267px] relative bg-off-white border border-black/6 rounded-bl-xl rounded-tr-xl p-6" key={index}>
-                <img className='absolute transform -top-[21%] max-w-[130px] max-h-[130px] object-cover pointer-events-none -translate-x-1/2 left-1/2' src={item.img} alt="pizza-img" />
+                <img className='absolute transform rounded-full -top-[21%] max-w-[130px] h-[130px] object-cover pointer-events-none -translate-x-1/2 left-1/2' src={item.img} alt="pizza-img" />
                 <div className="flex justify-center pt-[61px]">
                   <h3 className='gradient-text font-semibold text-[32px] leading-[140%]'>{item.price}</h3>
                 </div>
