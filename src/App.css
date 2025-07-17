@@ -9,6 +9,21 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-lighter-gray);
+    border-radius: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-light-orange);
+    border-radius: 12px;
+}
+
 @theme {
     --color-soft-gray: #E8E8E8;
     --color-off-white: #FEFEFE;
