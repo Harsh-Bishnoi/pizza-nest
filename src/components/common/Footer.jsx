@@ -7,15 +7,15 @@ const Footer = () => {
     <>
       <div className="px-4 pt-10 md:pt-20">
         <div className="max-w-[1140px] mx-auto">
-          <div className="flex max-md:flex-col justify-between gap-10 md:gap-20">
+          <div className="flex max-md:flex-col justify-between gap-8 md:gap-20">
             <div className="md:max-w-[400px] lg:max-w-[558px]">
               <h2 className="font-medium text-[42px] leading-[150%] gradient-text">Pizza Nest</h2>
               <Description descriptionClass="text-mid-gray pt-3" descriptionText="At Pizza Nest, we believe every slice should bring joy. Whether you're ordering for one or feeding a crowd, our pizzas are baked with care, topped with love, and delivered hot to your doorstep. You just taste the difference." />
-              <div className="flex items-center gap-5 mt-4 sm:mt-6">
+              <div className="flex items-center gap-5 mt-4 md:mt-6">
                 {SOCIAL_ICON.map((item, index) => (
                   <a
                     key={index}
-                    className="size-[52px] hover:-translate-y-1 transition-all duration-200 ease-linear bg-gradient-to-r from-[#EC6112] to-[#FF902E] rounded-full flex justify-center items-center"
+                    className="size-[40px] md:size-[52px] hover:-translate-y-1 transition-all duration-200 ease-linear bg-gradient-to-r from-[#EC6112] to-[#FF902E] rounded-full flex justify-center items-center"
                     href={item.socialLink} target='_blank'
                   >
                     {<item.icon />}
