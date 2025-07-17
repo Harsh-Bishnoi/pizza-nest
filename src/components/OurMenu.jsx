@@ -38,7 +38,7 @@ const OurMenu = () => {
 
   return (
     <>
-      <div id='menu' className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 relative">
+      <div id='menu' className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 relative overflow-hidden">
         <img className='absolute max-sm:hidden op-[30px] left-0 max-md:w-[80px]' src={pizzaSlice} alt="pizza-slice" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
@@ -59,7 +59,7 @@ const OurMenu = () => {
                 </Tab>
               ))}
             </TabList>
-            <div className="pt-10">
+            <div data-aos="fade-up" className="pt-10">
               <TabPanel>
                 <MenuTabPanel priceKey="priceOne" />
               </TabPanel>
