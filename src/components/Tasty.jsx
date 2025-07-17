@@ -20,7 +20,7 @@ const Tasty = () => {
                             <CustomButton btnClass="px-[32.5px] btn-gradient py-[15px] mt-3" btnText="Order Now" />
                         </div>
                         <div className="relative flex items-center">
-                            <img className='max-w-[400px] pointer-events-none lg:max-w-[553px] w-full' src={tastyPizza} alt="pizza-img" />
+                            <img className='max-w-[400px] pointer-events-none max-h-[350px] lg:max-w-[553px] w-full' src={tastyPizza} alt="pizza-img" />
                             <img className='absolute pointer-events-none max-md:hidden bottom-[40px] max-lg:max-w-[50px] lg:bottom-[75.13px] left-0 lg:left-[2px]' src={redTopic} alt="red-topic" />
                             <img className='absolute pointer-events-none max-md:hidden max-lg:max-w-[60px] left-[64px] bottom-[1px]' src={greenLeave} alt="green-leave" />
                             <img className='absolute pointer-events-none max-md:hidden max-lg:max-w-[40px] bottom-0 lg:bottom-[20px] right-0 xl:right-[-36.73px]' src={greenTopic} alt="green-topic" />
