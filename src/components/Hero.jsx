@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <div className="px-4 sm:px-6 lg:px-8 xl:px-10">
-        <div className="max-w-[1360px] mx-auto relative rounded-3xl bg-[url(../src/assets/images/png/hero-bg-img.png)] max-md:bg-[-250px] max-lg:bg-[-200px] bg-no-repeat lg:bg-cover lg:bg-center sm:min-h-[410px] md:min-h-[610px] xl:min-h-[650px] min-[1330px]:!min-h-[710px]">
+        <div className="max-w-[1360px] mx-auto relative rounded-3xl bg-[url(../src/assets/images/png/hero-bg-img.png)] max-md:bg-[-250px] max-lg:bg-[-200px] bg-no-repeat lg:bg-cover lg:bg-center sm:min-h-[410px] md:min-h-[510px] lg:min-h-[610px] xl:min-h-[650px] min-[1330px]:!min-h-[710px]">
           <div className="px-4 sm:px-6 max-sm:pb-8 pt-8 md:pl-[50px] md:pt-[80px] lg:pt-[105px] xl:pt-[131px] xl:pl-[110px] z-1 relative">
             <h1 className='font-bold text-3xl sm:text-5xl lg:text-[60px] xl:text-[64px] leading-[120%] text-white max-w-[644px]'>Where Every Slice Feels Like Home</h1>
             <Description descriptionClass="text-on-white max-w-[530px] pt-4" descriptionText="At Pizza Nest, we bake more than pizza — we bake comfort. Customize 
