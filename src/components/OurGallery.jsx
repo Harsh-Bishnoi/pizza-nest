@@ -29,8 +29,8 @@ const OurGallery = () => {
               </div>
             </div>
             <div className="flex max-sm:flex-col xl:flex-col gap-4 w-full justify-center max-sm:max-w-[558px] sm:max-w-[279px] lg:max-w-[267px]">
-              <img src={GALLERY_DATA[2]} alt="Top view pizza" className="object-cover pointer-events-none rounded-xl w-full max-sm:max-h-[329px] lg:max-w-[267px] lg:max-h-[235px]" />
-              <img src={GALLERY_DATA[6]} alt="Person with pizza" className="object-cover pointer-events-none rounded-xl w-full max-sm:max-h-[329px] sm:max-h-[235px] sm:min-w-[267px] xl:max-w-[267px] xl:max-h-[304px]" />
+              <img src={GALLERY_DATA[2]} alt="Top view pizza" className="object-center object-cover pointer-events-none rounded-xl w-full max-sm:max-h-[329px] lg:max-w-[267px] lg:max-h-[235px]" />
+              <img src={GALLERY_DATA[6]} alt="Person with pizza" className="max-sm:object-top object-cover pointer-events-none rounded-xl w-full max-sm:max-h-[329px] sm:max-h-[235px] sm:min-w-[267px] xl:max-w-[267px] xl:max-h-[304px]" />
             </div>
           </div>
           <div className="flex justify-center mt-8">
