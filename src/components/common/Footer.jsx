@@ -5,7 +5,7 @@ import { QUICK_LINKS, SOCIAL_ICON, SUPPORT_LINKS } from '../../utils/helper'
 const Footer = () => {
   return (
     <>
-      <div className="px-4 pt-20">
+      <div className="px-4 pt-10 md:pt-20">
         <div className="max-w-[1140px] mx-auto">
           <div className="flex max-md:flex-col justify-between gap-10 md:gap-20">
             <div className="md:max-w-[400px] lg:max-w-[558px]">

@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <>
       <div id='aboutUs' className="px-4 bg-[url(../src/assets/images/png/about-us-bg-img.png)] pt-15 md:pt-25 pb-[49px] relative">
-        <img className='absolute pointer-events-none left-0 bottom-0 max-xl:w-full max-xl:max-w-[150px] animate-bounce' src={pizzaImg} alt="pizza-img" />
+        <img className='absolute pointer-events-none left-0 bottom-0 max-xl:w-full max-xl:max-w-[150px] animate-bounce max-sm:hidden' src={pizzaImg} alt="pizza-img" />
         <div className="max-w-[1114px] mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between lg:min-h-[637px]">
             <div className="lg:max-w-[558px]">
