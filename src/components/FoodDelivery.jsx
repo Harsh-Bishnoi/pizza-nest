@@ -12,12 +12,12 @@ const FoodDelivery = () => {
       <div className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 bg-[url(../src/assets/images/png/about-us-bg-img.png)]">
         <div className="max-w-[1140px] mx-auto">
           <div className="flex gap-[33px] max-lg:flex-wrap justify-center">
-            <div className="lg:max-w-[495px]">
+            <div className="max-w-[495px]">
               <div className="flex items-center gap-1.5">
                 <h4 className='gradient-text'>Food Delivery</h4>
                 <div className="triple-border-gradient relative w-[60px] h-[1px]"></div>
               </div>
-              <Heading headingClass="!text-near-black pt-2" headingText="Fast, Fresh & Always On Time" />
+              <Heading headingClass="!text-near-black pt-2 max-sm:w-[330px] max-md:w-[400px]" headingText="Fast, Fresh & Always On Time" />
               <Description descriptionClass="text-dark-gray pt-[15px] pb-1" descriptionText="We deliver your favorite pizzas piping hot, just the way you love them — anywhere in town. From cheese-loaded bites to spicy paneer delights, your cravings are just a click away." />
               <ul>
                 {FOOD_DELIVERY_DATA.map((item, index) => (
