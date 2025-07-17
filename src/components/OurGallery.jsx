@@ -21,7 +21,7 @@ const OurGallery = () => {
               <img src={GALLERY_DATA[0]} alt="Pizza close-up" className="object-cover pointer-events-none rounded-xl max-sm:max-h-[329px] w-full lg:h-[291px]" />
               <img src={GALLERY_DATA[3]} alt="People eating outside" className="object-cover pointer-events-none rounded-xl max-sm:max-h-[329px] w-full xl::max-w-[267px] xl:min-h-[248px] min-h-[291px] xl:max-h-[248px]" />
             </div>
-            <div className="flex flex-col justify-center mx-auto gap-4 w-full max-w-[558px]">
+            <div className="flex flex-col justify-center gap-4 w-full max-w-[558px]">
               <img src={GALLERY_DATA[1]} alt="Chef with pizza" className="object-cover pointer-events-none rounded-xl w-full lg:min-w-[558px] mx-auto max-w-[558px] lg:max-h-[329px]" />
               <div className="flex flex-col justify-center sm:flex-row max-sm:max-w-[558px] gap-4">
                 <img src={GALLERY_DATA[4]} alt="People eating at table" className="object-cover pointer-events-none rounded-xl w-full max-sm:max-h-[329px] max-w-[558px] sm:max-w-[340px] lg:max-h-[210px]" />
