@@ -7,7 +7,7 @@ import greenTopic from '../assets/images/png/green-topic-img.png';
 import greenLeave from '../assets/images/png/green-leave.png';
 import tasty from '../assets/images/png/tasty-img.png';
 
-const Tasty = () => {
+const LargePizza = () => {
     return (
         <>
             <div id='offers' className="bg-[url(../src/assets/images/png/tasty-bg-img.png)] bg-cover px-4">
@@ -33,4 +33,4 @@ const Tasty = () => {
     )
 }
 
-export default Tasty
+export default LargePizza

@@ -7,7 +7,7 @@ import Delicious from './components/Delicious'
 import BestSellers from './components/BestSellers'
 import Footer from './components/common/Footer'
 import Craving from './components/Craving'
-import Tasty from './components/Tasty'
+import LargePizza from './components/LargePizza'
 import FoodDelivery from './components/FoodDelivery'
 import HowItWorks from './components/HowItWorks'
 import OurMenu from './components/OurMenu'
@@ -33,7 +33,7 @@ function App() {
       <Delicious />
       <BestSellers />
       <OurMenu />
-      <Tasty />
+      <LargePizza />
       <FoodDelivery />
       <HowItWorks />
       <Testimonial />
