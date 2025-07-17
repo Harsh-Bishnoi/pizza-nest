@@ -8,7 +8,7 @@ import tamatoImg from '../assets/images/png/tamato-img.png'
 const BestSellers = () => {
   return (
     <>
-      <div id='customize' className="px-4 py-10 sm:py-17 md:py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)] relative">
+      <div id='customize' className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)] relative">
         <img className='absolute max-sm:hidden right-0 pointer-events-none max-md:-top-1/16 max-[1172px]:-top-1/14 min-[1172px]:-top-1/7 max-md:max-h-[170px] max-[1172px]:max-h-[200px]' src={tamatoImg} alt="tamato-img" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">

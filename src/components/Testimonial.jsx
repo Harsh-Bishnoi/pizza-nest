@@ -16,7 +16,7 @@ const Testimonial = () => {
 
   return (
     <>
-      <div id='testimonial' className="px-4 py-10 sm:pt-17 md:py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)] lg:min-h-[786px]">
+      <div id='testimonial' className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 bg-[url(../src/assets/images/png/bestseller-bg-img.png)] lg:min-h-[786px]">
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
             <div className="h-[1px] w-[60px] triple-border-gradient relative rotate-180"></div>

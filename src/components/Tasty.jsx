@@ -10,9 +10,9 @@ import tasty from '../assets/images/png/tasty-img.png';
 const Tasty = () => {
     return (
         <>
-            <div id='offers' className="bg-[url(../src/assets/images/png/tasty-bg-img.png)] bg-cover px-3">
+            <div id='offers' className="bg-[url(../src/assets/images/png/tasty-bg-img.png)] bg-cover px-4">
                 <div className="max-w-[1194px] mx-auto">
-                    <div className="pt-[17px] pb-[33px] flex max-sm:flex-wrap justify-center gap-5 lg:gap-[44px] items-center">
+                    <div className="py-10 lg:pt-[17px] lg:pb-[33px] flex max-sm:flex-wrap justify-center gap-5 lg:gap-[44px] items-center">
                         <div className="md:max-w-[400px] lg:max-w-[597px]">
                             <p className='gradient-text pb-0.5 font-semibold text-2xl md:text-[28px] leading-[140%] '>Buy 1 Pizza, Get 1 Free!</p>
                             <Heading headingClass="text-white !text-[30px] md:!text-[40px] lg:!text-[56px]" headingText="Medium & Large pizzas" />

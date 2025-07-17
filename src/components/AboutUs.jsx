@@ -7,7 +7,7 @@ import pizzaImg from '../assets/images/png/about-us-pizza-img.png';
 const AboutUs = () => {
   return (
     <>
-      <div id='aboutUs' className="px-4 bg-[url(../src/assets/images/png/about-us-bg-img.png)] pt-15 md:pt-25 pb-[49px] relative">
+      <div id='aboutUs' className="px-4 bg-[url(../src/assets/images/png/about-us-bg-img.png)] pt-15 pt-20 lg:pt-25 pb-[49px] relative">
         <img className='absolute pointer-events-none left-0 bottom-0 max-xl:w-full max-xl:max-w-[150px] animate-bounce max-sm:hidden' src={pizzaImg} alt="pizza-img" />
         <div className="max-w-[1114px] mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between lg:min-h-[637px]">
@@ -32,7 +32,7 @@ const AboutUs = () => {
                 ))}
               </div>
             </div>
-            <img className='lg:max-h-[597px] pointer-events-none max-w-[383px] w-full mt-4' src={manImg} alt="man-img" />
+            <img className='lg:max-h-[597px] max-md:pt-[48px] pointer-events-none max-w-[383px] w-full mt-4' src={manImg} alt="man-img" />
           </div>
         </div>
       </div>

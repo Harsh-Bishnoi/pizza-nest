@@ -9,7 +9,7 @@ import { ArrowIcon } from '../utils/Icons'
 const HowItWorks = () => {
   return (
     <>
-      <div className="px-4 py-10 sm:py-17 md:py-25 relative">
+      <div className="px-4 py-10 sm:py-15 md:py-20 lg:py-25 relative">
         <img className='absolute rotate-180 max-sm:hidden left-0 pointer-events-none max-md:-top-1/16 max-[1172px]:-top-1/10 min-[1172px]:-top-1/5 max-md:max-h-[170px] max-[1172px]:max-h-[200px]' src={tamatoImg} alt="tamato-img" />
         <div className="max-w-[1140px] mx-auto">
           <div className="flex items-center gap-1.5 justify-center">
