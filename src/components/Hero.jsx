@@ -20,12 +20,12 @@ const Hero = () => {
             <div className="pt-6 flex gap-1 items-center flex-wrap">
               <div className="max-w-[145px] sm:max-w-[155px] w-full text-center">
                 <h4 className='text-white font-semibold text-[28px] leading-[120%]'>5,000+</h4>
-                <p className='text-lighter-gray leading-[120%] text-semibold '>Pizzas Delivered</p>
+                <p className='text-lighter-gray leading-[120%] text-semibold pt-[2px]'>Pizzas Delivered</p>
               </div>
               <div className="border-1 h-[39px] border-disco-ball"></div>
               <div className="sm:max-w-[168px] max-w-[145px] w-full text-center">
                 <h4 className='text-white font-semibold text-[28px] leading-[120%]'>98%</h4>
-                <p className='text-lighter-gray leading-[120%] text-semibold '>Happy Customers</p>
+                <p className='text-lighter-gray leading-[120%] text-semibold pt-[2px]'>Happy Customers</p>
               </div>
             </div>
           </div>
